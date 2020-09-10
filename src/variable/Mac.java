@@ -20,6 +20,24 @@ public class Mac {
 	byte      num=127;
 	
 	
+	// static method
+	
+	public static void  country(){
+		
+	System.out.println(" i love to study about java");
+		
+	}
+	 //non static method
+	
+	public void  city() {
+		
+		int  town=123;
+		System.out.println(town);
+		
+	}
+	
+	
+	
 	public static void main(String[] args) {
 		
 		System.out.println(Mac.name);
@@ -44,6 +62,14 @@ public class Mac {
 		System.out.println(fm.cd);
 		System.out.println(fm.num);
 		
+		
+		//static method
+		
+		Mac.country();
+		
+		//non static method
+		
+		fm.city();
 	}
 	
 	
